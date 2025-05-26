@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    font-size: 13px;
+}
+
+.top-header {
+    background: #161616;
+    display: block;
+    padding: 9px 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.container::after{
+    display: block;
+}
+
+.site-logo img{
+    width: 90px;
+    margin-top: 7px;
+}
+
+.menubar{
+    background: #fa1939;
+    margin-bottom: 15px;
+}
+
+nav{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 9px 8px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.fa-solid fa-house-chimney icon-home{
+    padding: 10px 0;
+}
+
+.active{
+    background: #D90c16;
+}
+
